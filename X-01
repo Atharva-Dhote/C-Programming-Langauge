@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+   
+    printf("\n boys are good");
+    printf("\n girls are good");
+    return 0;
+}
