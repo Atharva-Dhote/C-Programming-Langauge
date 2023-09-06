@@ -1,0 +1,8 @@
+// IF YOU CHANGE VALUE OF (a>)OR LESS THAN TEN Arigato WILL BE THE OUTPUT
+#include <stdio.h>
+
+int main() {
+    int a=10;
+    (a>91? printf("Arigato"):printf("sayonara"));
+    return 0;
+}
