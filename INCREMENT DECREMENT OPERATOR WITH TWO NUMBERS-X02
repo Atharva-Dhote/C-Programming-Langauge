@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int a=5,b=10;
+   b=a++;
+    printf("\n A=%d B=%d",a,b);
+    a=++b;
+    printf("\n A=%d B=%d",a++);
+     printf("\n A=%d B=%d",++b);
+      printf("\n A=%d B=%d",a--);
+       printf("\n A=%d B=%d",--b);
+       printf("\n A=%d B=%d",a,b);
+       }                    
