@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main()
+{
+    int ch;
+    float a,b;
+
+        printf("\n 1.Addition");
+        printf("\n 2.Subtraction");
+        printf("\n 3.Multiplaction");
+        printf("\n 4.Division");
+
+        printf("\nEnter your choice\n");
+        scanf("%d",&ch);
+
+
+        switch(ch)
+        {
+            case 1 : printf("\nEnter two Number :");
+            scanf("%f %f",&a,&b);
+             {
+               printf("\n %2f+%2f=%2f",a,b,a+b);
+             }
+          break;
+
+            case 2 : printf("\nEnter Any Number\n");
+            scanf("%f %f",&a,&b);
+            {
+                 printf("\n %2f+%2f=%2f",a,b,a-b);
+            }
+            break;
+        
+            case 3 : printf("\nEnter Any Number");
+            scanf("%f %f",&a,&b);
+            {
+               printf("\n %2f+%2f=%2f",a,b,a*b);
+        
+            }
+            break;
+
+                case 4 :  printf("\nEnter Any Number");
+                scanf("%f %f",&a,&b);
+            {
+                 printf("\n %2f+%2f=%2f",a,b,a/b);
+            }
+                break;   
+               
+                default :printf ("\n Invalid choice");
+
+        }
+}
