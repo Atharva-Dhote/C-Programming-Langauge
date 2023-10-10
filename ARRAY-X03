@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void main() {
+    int a[5]={23,45,67,78,85};
+    int i;
+    for(i=0;i<5;i++)
+    {
+        printf("\n a[%d]=%d",i,a[i]);
+    }
+}
