@@ -13,13 +13,19 @@ char ch;
     {
         if(ch>=97 && ch<=122)
         {
-        printf("uppar case %c",ch);
-    }
+        printf("lower case %c",ch);
+        }
     }
     
     if(ch>=48 && ch<=57)
         {
     printf("DIGIT",ch);
-    }
+        }
+        else
+        {
+        printf("special symbol",ch);
+        }
    
 }
+   
+
