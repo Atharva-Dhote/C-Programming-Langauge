@@ -26,7 +26,5 @@ int main()
              printf ("\n This month has 28 days");
                     break;
         default:printf("\n This is invalid");
-            printf("\n Its a Vowel");
-
         }
 }
