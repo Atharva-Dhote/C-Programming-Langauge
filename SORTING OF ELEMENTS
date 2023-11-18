@@ -1,0 +1,38 @@
+#include <stdio.h> 
+void selection(int n, int* ptr) 
+{
+int i,j,t; 
+for (i= 0; i < n ; i++) 
+{
+for (j = i + 1; j < n; j++) 
+{
+if(*(ptr + j) < *(ptr + i)) 
+{
+t= *(ptr + i) ; 
+*(ptr + i) = *(ptr + j); 
+*(ptr + j) = t;
+} 
+} 
+} 
+for (i=0; i < n; i++) 
+{
+printf("%d ", *(ptr + i)); 
+}
+} 
+int main() 
+{
+printf("Name:-Atharva Dhote\n");
+printf("Roll No.:-31\n"); 
+int n,i; 
+printf("Enter the number of elements:- "); 
+scanf("%d", &n); 
+int arr[n]; 
+printf("Enter the numbers: \n", n); 
+for (i= 0 ; i < n; i++) 
+{
+scanf("%d", &arr[i]); 
+} 
+printf("The sorted elements are:-\n"); 
+selection(n, arr); 
+return 0;
+} 
