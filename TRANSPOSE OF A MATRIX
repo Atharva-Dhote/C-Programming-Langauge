@@ -18,7 +18,7 @@ int main()
          }printf("\n");
      }printf("\n");
      
-    // Transposing the Matrix...
+    // Transposing the Matrix....
     for(i=0; i<4; i++)
     {
         for(j=0; j<4; j++)
