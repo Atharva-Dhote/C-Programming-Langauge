@@ -1,0 +1,14 @@
+#include<stdio.h>
+int modify(int a)
+{
+    return(a+10);
+}
+void main()
+{
+    int a,b;
+    a=modify(100);
+    b=modify(2);
+    printf("\nA=%dB=%d",a,b);
+    b=modify(a);
+    printf("\nA=%dB= %d",a,b);
+}
