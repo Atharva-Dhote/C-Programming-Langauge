@@ -1,0 +1,12 @@
+#include<stdio.h>
+int modify(int a,int b)
+{
+    return(a+b);
+}
+void main()
+{
+    int a,b;
+  printf("\n Enter values:-");
+    scanf("%d %d",&a,&b);
+    printf("\n Addition=%d",a+b);
+}
