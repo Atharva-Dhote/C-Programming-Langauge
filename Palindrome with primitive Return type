@@ -1,0 +1,39 @@
+#include <stdio.h>
+int reverse(int n)
+{
+    int r=0;
+
+    while(n>0)
+    {
+        r=r*10+n%10;
+        n=n/10;
+    }
+    return (r);
+}
+int palin(int n)
+{
+    if(n==reverse(n))
+    {
+        return (1);
+    } 
+    else
+    {
+        return (0);
+    }
+}    
+
+void main()
+{
+    int a;
+    printf("\n Enter any values:-");
+    scanf("%d",&a);
+   if(palin(a))
+    {
+    printf("\n Number is Palindrome");
+    }
+    else
+    {
+    printf("\n Number is  not Palindrome");
+    }
+    }
+    
