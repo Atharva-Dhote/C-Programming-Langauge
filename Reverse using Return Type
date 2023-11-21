@@ -1,0 +1,26 @@
+#include <stdio.h>
+int reverse(int n)
+{
+    int r=0;
+
+    while(n>0)
+    {
+        r=r*10+n%10;
+        n=n/10;
+    }
+    return (r);
+}
+
+void main()
+{
+    int a,b;
+    printf("\n Enter any values:-");
+    scanf("%d",&a);
+    b=reverse(a);
+    
+    printf("\n Reverse of %d is %d",a,b);
+    printf("\n Reverse of 1234 is %d",reverse(1234));
+     printf("\n Reverse of 786 is %d",reverse(786));
+    printf("\n Reverse of 34 is %d",reverse(34));
+
+}
