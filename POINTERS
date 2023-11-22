@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int a=10;
+    int *p,**q,***r;
+    p=&a;
+    q=&p;
+    r=&q;
+    
+    printf("\n A=%d",&a);
+     printf("\n *p=%d",*p);
+     printf("\n **q=%d",*q);
+     printf("\n ***r=%d",***r);
+     
+     printf("\n Address of A=%u",&a);
+     printf("\n Address of P=%u",&p);
+     printf("\n Address of Q=%u",&q);
+     printf("\n Address of R=%u",&r);
+     
+     printf("\n Data of P=%u",&p);
+     printf("\n Data of Q=%u",&q);
+     printf("\n Data of R=%u",&r);
+
+    return 0;
+}
