@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int a[5]={10,2,34,56,54};
+    int *ptr,i;
+    ptr=a;
+    
+    for(i=0;i<5;i++)
+    {
+    printf("\n*(ptr+%d)=%d",i,*(ptr+i));
+    }
+    
+}
