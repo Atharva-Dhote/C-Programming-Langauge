@@ -1,0 +1,22 @@
+#include <stdio.h>
+void USA()
+{
+    printf("\n Hi I am in USA");
+}
+void JAPAN()
+{
+ printf("\n Hi I am in JAPAN");
+}   
+void BAHRAT()
+{
+ printf("\n Hi I am in BAHRAT");   
+}
+
+void main()
+{
+    printf("\n おはよう (Ohayō)");
+    BAHRAT();
+    USA();
+    JAPAN();
+    printf("\n 良い１日を (Yoi 1-nichi o)");
+}
