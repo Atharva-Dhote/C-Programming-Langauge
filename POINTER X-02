@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int a[5]={10,2,34,56,54};
+    int *ptr;
+    ptr=a;
+    
+    printf("\n%d",a[2]);
+     printf("\n ptr=%d",*ptr);
+     printf("\n *(ptr+1)=%d",*(ptr+1));
+     printf("\n *(ptr+3)=%d",*(ptr+3));
+     
+     *(ptr+3)=100;
+      *(ptr+1)=200;
+     
+     printf("\n *(ptr+1)=%d",*(ptr+1));
+     printf("\n *(ptr+3)=%d",*(ptr+3));
+     printf("\n a[1]=%d",a[1]);
+     printf("\n a[4]=%d",a[4]);
+    
+}
