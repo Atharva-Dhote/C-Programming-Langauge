@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() 
+{
+    int a=100;
+    int b=200;
+    
+        printf("\n  Before swapping value of a:%d ",a);
+        printf("\n Before swapping value of b:%d ",b);
+        
+        swap (a,b);
+        
+        printf("\n After swapping value of a:%d ",a);
+        printf("\n After swapping value of b:%d ",b);
+       
+    return 0;
+}
+
+void swap(int a , int b)
+{
+  int temp; 
+  temp=a;
+  a=b;
+  b=temp;
+
+}
+
