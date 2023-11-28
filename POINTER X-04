@@ -1,0 +1,20 @@
+#include <stdio.h>
+void display_arr(int*p,int size) 
+{
+ int i;
+ for(i=0;i<size;i++)
+ {
+     printf("\n p[%d]=%d",i,p[i]);
+ }
+    printf("\n ----------------------------");
+}
+
+int main()
+{
+  int a [7]={1,7,6,4,9,0,3};
+   int b [3]={91,10,13};
+     int c [5]={10,20,30,40,50};
+     display_arr(a,7);
+     display_arr(b,3);
+     display_arr(c,5);
+}
