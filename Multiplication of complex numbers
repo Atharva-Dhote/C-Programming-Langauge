@@ -1,0 +1,27 @@
+#include <stdio.h>
+  struct complex
+  {
+    int real;
+    int img;
+  }C1,C2,C3;
+  
+  int main ()
+  {
+    
+    printf("Enter 1st condition:-");
+    scanf("%d %d",&C1.real,&C1.img);
+    
+     printf("Enter 2st condition:-");
+    scanf("%d %d",&C2.real,&C2.img);
+    
+    C3.real=C1.real*C2.real;
+    C3.img=C1.img*C2.img;
+    
+    if(C3.img>0)
+     printf("\n %d+i%d",C3.real,C3.img);
+     
+     else
+      printf("\n %d-i%d",C3.real,C3.img);
+    
+    return 0;
+}
