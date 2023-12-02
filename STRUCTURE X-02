@@ -1,0 +1,25 @@
+#include <stdio.h>
+  struct ABC 
+  {
+    int a;
+    float b;
+    char c ;
+  }A1;
+  
+  int main ()
+  {
+      struct ABC A2;
+  
+    A1.a=10;
+    A1.b=22.5;
+    A1.c='H';
+    
+    A2.a=126;
+    A2.b=45.6;
+    A2.c='n';
+    
+    printf("\n %d %2.f %c",A1.a,A1.b,A1.c);
+     printf("\n %d %2.f %c",A2.a,A2.b,A2.c);
+
+    return 0;
+}
