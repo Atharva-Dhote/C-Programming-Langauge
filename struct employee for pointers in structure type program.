@@ -1,0 +1,57 @@
+#include <stdio.h>
+typedef struct employee
+{
+    char name[20];
+    int eid;
+    float sal;
+}emp;
+void getemployee(struct employee*ptr)
+{
+     printf("\n enter name =");
+       scanf("%s",ptr->name);
+       printf("\n enter eid =");
+       scanf("%d",&(ptr->eid));
+       printf("\n enter sal =");
+       scanf("%f",&(ptr->sal));
+}
+void showemployee(struct employee*ptr)
+{
+     printf("\n name = %s",ptr->name);
+   printf("\n eid = %d",ptr->eid);
+   printf("\n salary =%f",ptr->sal);
+}
+int main()
+{
+   emp E[3];
+   int i;
+   for(i=0;i<3;i++)
+   {
+      getemployee(&E[i]);
+   }
+   for(i=0;i<3;i++)
+   {
+      showemployee(&E[i]);
+   }
+
+    return 0;
+}
+output =
+enter name =ayush 
+enter eid =123
+enter sal =2344
+enter name =atharva
+enter eid =456
+enter sal =4000
+enter name =sonal
+enter eid =456
+enter sal =4000
+name = ayush
+ eid = 123
+ salary =2344.000000
+ name = atharva
+ eid = 456
+ salary =4000.000000
+ name = sonal
+ eid = 456
+ salary =4000.000000
+ ________________________________________________
