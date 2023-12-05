@@ -1,0 +1,18 @@
+#include <stdio.h>
+typedef struct employee
+{
+    char name[20];
+    int eid;
+    float sal;
+}emp;
+
+int main()
+{
+    emp E[3];
+  printf("\nsize of(E[0].name)=%d",sizeof(E[0].name));
+  printf("\nsize of(E[0].eid)=%d",sizeof(E[0].eid)); 
+  printf("\nsize of(E[0].sal)=%d",sizeof(E[0].sal));
+  printf("\nsize of(E[0])=%d",sizeof(E[0]));
+  printf("\nsize of(E)=%d",sizeof(E));
+    return 0;
+}
