@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float Area;
+    float r,pi=3.14;
+
+    printf("Enter Value of Radius :");
+    scanf("%f",&r);
+
+    Area=pi*r*r;
+    printf("The value of Area of circle is : %.2f",Area);
+
+
+    return 0;
+}
