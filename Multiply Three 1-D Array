@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+void main()
+{
+    int a[5],b[5],c[5],d[5];
+    int i,sum;
+    printf("\n Enter Five Values For A:");
+    for(i=0;i<5;i++)
+    {
+        scanf("\n %d",&a[i]);
+    }
+     printf("\n Enter Five Values For B:");
+     
+     for(i=0;i<5;i++)
+    {
+       scanf("\n %d",&b[i]);
+    }
+    
+    printf("\n Enter Five Values For C:");
+    for(i=0;i<5;i++)
+    {
+       scanf("\n %d",&c[i]);
+    }
+    for(i=0;i<5;i++)
+    {
+        sum=d[i]=a[i]*b[i]*c[i];
+        printf("\n Sum of Array %d and %d is %d",a[i],b[i],c[i],sum);
+    }
+}
