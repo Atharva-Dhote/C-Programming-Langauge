@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main()
+{
+    int num,i,count,ch;
+
+
+        printf("\n 1. Area of Rectangle");
+        printf("\n 2.Area of Squar");
+        printf("\n 3.Perimeter of Rectangle");
+        printf("\n 4.EXIT");
+
+        printf("\nEnter your choice\n");
+        scanf("%d",&ch);
+
+
+        switch(ch)
+        {
+            case 1:
+            int l,b,ans;
+            printf("\n Enter any Length and Breadth :");
+            scanf("%d %d",&l,&b);
+            ans=l*b;
+            printf("\n Area of Rectangle=%d \n:",ans);
+            break;
+
+            case 2 : 
+            int s,ansu;
+            scanf("%d",&s);
+            ansu=s*s;
+            printf("\n Area of Squar=%d \n:",ansu);
+            break;
+
+            case 3 : 
+            int k,o,anss;
+            scanf("%d %d",&l,&b);
+            anss=2*(k+o);
+            printf("\n Perimeter of Rectangle=%d \n:",anss);
+            break;
+
+                break;
+
+            case 4 : exit(0);
+
+          default : printf("\n Invalid choice");
+
+        }
+}  
